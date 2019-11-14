@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Exercise 2</title>
-</head>
-<body>
-    <center>
-        <h1>Kalkulator</h1>
-    </center>
-</body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center;">Kalkulator</h1>
+      <div class="calc-wrapper">
+        <div class="calc-content">
+          <div class="calc-input">
+            <input type="text" class="calc-screen" value="" disabled />
+          </div>
+          <div class="calc">
+            <div class="calc-clear">
+              <button type="button" class="clearInput" value="clear">
+                CLEAR
+              </button>
+            </div>
+            <div class="calc-operation">
+              <button type="button" value="7">7</button>
+              <button type="button" value="8">8</button>
+              <button type="button" value="9">9</button>
+              <button type="button" class="operator" value="/">
+                /
+              </button>
+              <button type="button" value="4">4</button>
+              <button type="button" value="5">5</button>
+              <button type="button" value="6">6</button>
+              <button type="button" class="operator" value="*">
+                &times;
+              </button>
+              <button type="button" value="1">1</button>
+              <button type="button" value="2">2</button>
+              <button type="button" value="3">3</button>
+              <button type="button" class="operator" value="-">
+                -
+              </button>
+              <button type="button" value="0">0</button>
+              <button type="button" value="." class="decimal">.</button>
+              <button type="button" value="=" class="equal operator">=</button>
+              <button type="button" class="operator" value="+">
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script js -->
+    <script src="./js/script.js"></script>
+  </body>
 </html>
